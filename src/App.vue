@@ -5,10 +5,8 @@ import HelloWorld from '@/components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg2="AAA" msg="Play list" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
@@ -46,6 +44,13 @@ a,
   text-decoration: none;
   color: hsla(160, 100%, 37%, 1);
   transition: 0.4s;
+}
+
+.aaa {
+  text-decoration: underline;
+  color: darkgreen;
+  transition: 0.4s;
+
 }
 
 @media (hover: hover) {
